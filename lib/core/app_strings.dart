@@ -11,6 +11,8 @@ class AppStrings {
 
   static const String emailIsValid = "Email is Required";
   static const String emailNotValid = "Email is Not Valid";
+  static const String emailContainSymbol = "Email doesnt have @";
+  static const String emailEndWith = "Email must in .com";
   static const String passwordDontMatch = "Password doesnt match";
   static const String passwordMin = "Password must be at least 8 characters long";
   static const String mustHaveCapital = "Password must contain at least one capital letter";
